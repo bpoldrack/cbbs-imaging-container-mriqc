@@ -1,2 +1,6 @@
 [datalad "dataset"]
 	id = a5465b7a-5031-11e8-a7bb-080027e889c6
+[datalad.neuroimaging.bidsapp]
+	container = mriqc.simg
+	exec = singularity exec
+
